@@ -1,2 +1,6 @@
 # lemonpen_script
-Lemonpen script EOL. backup by kustale.
+
+Lemonpen's script disappeared...
+Other codes are gone. :(
+
+LemonPen JS by openid[disappered] to IREN.

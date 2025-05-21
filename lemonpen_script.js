@@ -835,7 +835,7 @@ CrustClass.extend(LemonPen.prototype, {
             is_private: !this.option("publicNoteToDefault"),
             user_id: this.userID(),
             user_name: this.userName(),
-            created: "ë°©ê¸ˆì „",
+            created: "방금전",
             number_of_posts: 0,
             info: d.json,
             pos_x: 0,
@@ -1150,58 +1150,58 @@ CrustClass.extend(CrustDepth, {
 var CrustLocalization = {
     MESSAGES: {
         ko: {
-            OPENID: "ì˜¤í”ˆì•„ì´ë””",
-            LOGIN: "ë¡œê·¸ì¸",
-            SCRAPBOOK: "ìŠ¤í¬ëž©ë¶ ë³´ê¸°",
-            DIALOG_CANCEL: "ì·¨ì†Œ",
-            CONFIRM_DELETE_CRUST: "ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?",
-            HELP_CLOSED_BETA: "<strong>ë ˆëª¬íŽœì€ í˜„ìž¬ í´ë¡œì¦ˆë“œ ë² íƒ€í…ŒìŠ¤íŠ¸ ì¤‘ìž…ë‹ˆë‹¤.</strong><br/>ë² íƒ€í…ŒìŠ¤í„°ë¡œ ì´ˆëŒ€ë°›ìœ¼ì‹  ë¶„ê»˜ì„œëŠ” ë¡œê·¸ì¸ì„ í•´ì£¼ì„¸ìš”.",
-            HELP_CLOSED_BETA_PLAIN: "ë ˆëª¬íŽœì€ í˜„ìž¬ í´ë¡œì¦ˆë“œ ë² íƒ€í…ŒìŠ¤íŠ¸ ì¤‘ìž…ë‹ˆë‹¤.\në² íƒ€í…ŒìŠ¤í„°ë¡œ ì´ˆëŒ€ë°›ìœ¼ì‹  ë¶„ê»˜ì„œëŠ” ë¡œê·¸ì¸ì„ í•´ì£¼ì„¸ìš”.",
-            ACTION_NEWNOTE: "ìª½ì§€ ë§Œë“¤ê¸°",
-            MENU_POSTWINDOW_TOOLS: "ë„êµ¬ ëª¨ìŒ",
-            MENU_POSTWINDOW_CLOSE: "ì ‘ê¸°",
-            MENU_POSTWINDOW_DELETE: "ì‚­ì œí•˜ê¸°",
-            MENU_POSTWINDOW_EXPORT: "ë¸”ë¡œê·¸ë¡œ ë‚´ë³´ë‚´ê¸°",
-            MENU_POSTWINDOW_CLOSE_ALL: "ëª¨ë“  ë©”ëª¨ ì ‘ê¸°",
-            MENU_POSTWINDOW_CLOSE_EXCLUSIVE: "ë‹¤ë¥¸ ëª¨ë“  ìª½ì§€ ì ‘ê¸°",
-            MENU_POSTWINDOW_MAKEPUBLIC: "ì „ì²´ ê³µê°œí•˜ê¸°",
-            MENU_POSTWINDOW_SHAREGROUP: "#{GROUP} ê·¸ë£¹ê³¼ ê³µìœ ",
-            MENU_POSTWINDOW_NOSHARE: "ë‚˜ í˜¼ìž ë³´ê¸°",
-            TOOLTIP_HIGHLIGHT: "í˜•ê´‘íŽœ ì¹ í•˜ê¸°",
-            TOOLTIP_HIGHLIGHT_TAKER: "í˜•ê´‘íŽœ ì¹ í•˜ê¸°",
-            TOOLTIP_DELETE_POST: "ë§ê¸€ ì‚­ì œí•˜ê¸°",
-            TOOLTIP_REPLY_POST: "ë‹µë³€ë‹¬ê¸°",
-            TOOLTIP_TAG_EDIT: "íƒœê·¸ë¥¼ ìˆ˜ì •í•˜ì‹œë ¤ë©´ í´ë¦­í•˜ì„¸ìš”. (ENTER : ì €ìž¥, ESC : ì·¨ì†Œ)",
-            OPENID_LOGGED_AS: "ì•„ëž˜ì˜ ì•„ì´ë””ë¡œ ë¡œê·¸ì¸í•˜ì…¨ìŠµë‹ˆë‹¤.",
+            OPENID: "오픈아이디",
+            LOGIN: "로그인",
+            SCRAPBOOK: "스크랩북 보기",
+            DIALOG_CANCEL: "취소",
+            CONFIRM_DELETE_CRUST: "삭제하시겠습니까?",
+            HELP_CLOSED_BETA: "<strong>레몬펜은 현재 클로즈드 베타테스트 중입니다.</strong><br/>베타테스터로 초대받으신 분께서는 로그인을 해주세요.",
+            HELP_CLOSED_BETA_PLAIN: "레몬펜은 현재 클로즈드 베타테스트 중입니다.\n베타테스터로 초대받으신 분께서는 로그인을 해주세요.",
+            ACTION_NEWNOTE: "쪽지 만들기",
+            MENU_POSTWINDOW_TOOLS: "도구 모음",
+            MENU_POSTWINDOW_CLOSE: "닫기",
+            MENU_POSTWINDOW_DELETE: "삭제하기",
+            MENU_POSTWINDOW_EXPORT: "블로그로 내보내기",
+            MENU_POSTWINDOW_CLOSE_ALL: "모든 메모 닫기",
+            MENU_POSTWINDOW_CLOSE_EXCLUSIVE: "다른 모든 쪽지 닫기",
+            MENU_POSTWINDOW_MAKEPUBLIC: "전체 공개하기",
+            MENU_POSTWINDOW_SHAREGROUP: "#{GROUP} 그룹과 공유",
+            MENU_POSTWINDOW_NOSHARE: "나 혼자 보기",
+            TOOLTIP_HIGHLIGHT: "형광펜 칠하기",
+            TOOLTIP_HIGHLIGHT_TAKER: "형광펜 칠하기",
+            TOOLTIP_DELETE_POST: "덧글 삭제하기",
+            TOOLTIP_REPLY_POST: "답변달기",
+            TOOLTIP_TAG_EDIT: "태그를 수정하시려면 클릭하세요. (ENTER : 저장, ESC : 취소)",
+            OPENID_LOGGED_AS: "아래의 아이디로 로그인하셨습니다.",
             EDITOR_DEFAULT_TEXT: "",
-            EXPORT_TRACKBACK_URL: "íŠ¸ëž™ë°± ì£¼ì†Œë¥¼ ìž…ë ¥í•˜ì„¸ìš”",
-            EXPORT_BLOG_NAME: "í¬ìŠ¤íŠ¸ ì œëª©ì„ ìž…ë ¥í•˜ì„¸ìš”",
-            EXPORT_SUCCESS: "ìž˜ ë³´ëƒˆìŠµë‹ˆë‹¤.",
-            MENU_TOOLBAR_EXPANDALL: "ëª¨ë‘ íŽ¼ì¹˜ê¸°",
-            MENU_TOOLBAR_SHRINKALL: "ëª¨ë‘ ì ‘ê¸°",
-            MENU_TOOLBAR_NOSHARE: "ë‚´ ê²ƒë§Œ ë³´ê¸°",
-            MENU_TOOLBAR_SHOWGROUP: "#{GROUP} ê·¸ë£¹ê³¼ ê³µìœ ",
-            MENU_TOOLBAR_SHOWALL: "ì „ì²´ ë³´ê¸°",
-            BUTTON_SAVE_AS_PRIVATE: "ì €ìž¥í•˜ê¸°",
-            BUTTON_SAVE_AS_PUBLIC: "ì €ìž¥í•˜ê¸°",
-            TOOLTIP_BUTTON_SAVE_AS_PRIVATE: "ì €ìž¥í•˜ê¸°",
-            TOOLTIP_BUTTON_SAVE_AS_PUBLIC: "ê³µê°œëœ ê¸€ë¡œ ì €ìž¥í•˜ê¸°",
-            STATUS_POST_SAVING: "ì €ìž¥ ì¤‘ìž…ë‹ˆë‹¤..",
-            STATUS_POST_SAVED: "ì €ìž¥ë˜ì—ˆìŠµë‹ˆë‹¤.",
-            STATUS_POSTWINDOW_PRIVATE: 'ë‚´ ê°œì¸ ìª½ì§€ (#{created})',
-            STATUS_POSTWINDOW_PUBLIC: '<strong>#{author}</strong>ë‹˜ì˜ ê³µê°œ ìª½ì§€ (#{created})',
-            STATUS_POSTWINDOW_GROUP: '<strong>#{author}</strong>ë‹˜ì˜ <strong>#{group}</strong> ê·¸ë£¹ ìª½ì§€ (#{created})',
-            STATUS_POSTWINDOW_GUEST: 'PCì— ì €ìž¥ëœ ìª½ì§€ (#{created})',
-            STATUS_POSTWINDOW_BLANK: 'PCì—ë§Œ ì €ìž¥ë¨',
+            EXPORT_TRACKBACK_URL: "트랙백 주소를 입력하세요",
+            EXPORT_BLOG_NAME: "포스트 제목을 입력하세요",
+            EXPORT_SUCCESS: "잘 보냈습니다.",
+            MENU_TOOLBAR_EXPANDALL: "모두 펼치기",
+            MENU_TOOLBAR_SHRINKALL: "모두 보기",
+            MENU_TOOLBAR_NOSHARE: "내 것만 보기",
+            MENU_TOOLBAR_SHOWGROUP: "#{GROUP} 그룹과 공개",
+            MENU_TOOLBAR_SHOWALL: "전체 보기",
+            BUTTON_SAVE_AS_PRIVATE: "저장하기",
+            BUTTON_SAVE_AS_PUBLIC: "저장하기",
+            TOOLTIP_BUTTON_SAVE_AS_PRIVATE: "저장하기",
+            TOOLTIP_BUTTON_SAVE_AS_PUBLIC: "공개된 글로 저장하기",
+            STATUS_POST_SAVING: "저장 중입니다..",
+            STATUS_POST_SAVED: "저장되었습니다.",
+            STATUS_POSTWINDOW_PRIVATE: '내 개인 쪽지 (#{created})',
+            STATUS_POSTWINDOW_PUBLIC: '<strong>#{author}</strong>님의 공개 쪽지 (#{created})',
+            STATUS_POSTWINDOW_GROUP: '<strong>#{author}</strong>님의 <strong>#{group}</strong> 그룹 쪽지 (#{created})',
+            STATUS_POSTWINDOW_GUEST: 'PC에 저장된 쪽지 (#{created})',
+            STATUS_POSTWINDOW_BLANK: 'PC에만 저장됨',
             STATUS_POSTWINDOW_BLANK_LOGGED: '<strong>#{author}</strong>',
-            EDITOR_OPTION_PUBLIC: "ì´ ë©”ëª¨ë¥¼ ê³µê°œí•©ë‹ˆë‹¤.",
-            HELP_MAKE_PUBLIC: "<strong>ë‚´ ìª½ì§€ê°€ ëª¨ë‘ì—ê²Œ ê³µê°œë˜ë©°,<br/>ë‹¤ë¥¸ ì‚¬ìš©ìžë“¤ê³¼Â í•¨ê»˜Â ì˜ê²¬ì„ ì£¼ê³ ë°›ì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</strong><br/>ëª…ì˜ˆí›¼ì†, ì €ìž‘ê¶Œì¹¨í•´ ë“± íƒ€ì¸ì˜ ê¶Œë¦¬ë¥¼ ì¹¨í•´í•˜ëŠ” ë©”ëª¨ëŠ” ë²•ë¥ ì— ë”°ë¼ ì œì œë¥¼ ë°›ì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.",
+            EDITOR_OPTION_PUBLIC: "이 메모를 공개합니다.",
+            HELP_MAKE_PUBLIC: "<strong>내 쪽지가 모두에게 공개되며,<br/>다른 사용자들과\"함께\" 의견을 주고 받을 수 있습니다.</strong><br/>명예훼손, 저작권침해 등 타인의 권리를 침해하는 메모는 법률에 따라 제재를 받을 수 있습니다.",
             HELP_LOGIN_TO_POST_PUBLIC: "",
-            LABEL_MAKE_PUBLIC: "ê³µê°œí•˜ê¸° &raquo;",
-            HELP_NO_TAG: "íƒœê·¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”",
-            HELP_POST_VIRTUAL_DELETED: "ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.",
-            HELP_NEEDLOGIN: "<strong>í˜„ìž¬ ë¡œê·¸ì¸ì´ ë˜ì–´ ìžˆì§€ ì•Šì•„ ìª½ì§€ë“¤ì´ PCì—ë§Œ ì €ìž¥ë˜ê³  ìžˆìŠµë‹ˆë‹¤.</strong><br/>ë©”ëª¨ë¥¼ ê³µìœ í•˜ê±°ë‚˜ ê³µê°œí•˜ë ¤ë©´ ë¡œê·¸ì¸ì„ í•´ì£¼ì„¸ìš”.",
-            HELP_SIGNUP: "ì˜¤í”ˆì•„ì´ë””ê°€ ì—†ë‹¤ë©´ ì—¬ê¸°ë¥¼ ëˆŒëŸ¬ ì˜¤í”ˆì•„ì´ë””ë¥¼ ë§Œë“œì„¸ìš”",
+            LABEL_MAKE_PUBLIC: "공개하기 &raquo;",
+            HELP_NO_TAG: "태그를 입력하세요",
+            HELP_POST_VIRTUAL_DELETED: "삭제되었습니다.",
+            HELP_NEEDLOGIN: "<strong>현재 로그인이 되어 있지 않아 쪽지들이 PC에만 저장되어 있습니다.</strong><br/>메모를 공개하거나 공개하려면 로그인을 해주세요.",
+            HELP_SIGNUP: "오픈아이디가 없다면 여기를 눌러 오픈아이디를 만드세요",
             LINK_SIGNUP: "https://www.myid.net/signup/lemonpen"
         },
         en: {}
@@ -3179,14 +3179,14 @@ CrustClass.extend(CrustPostWindow.prototype, {
         var o;
         this.g_list.style.display = "block";
         if ((o = $CRUST("CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-ARROW-" + this.uid)))
-            o.innerHTML = "â–²"
+            o.innerHTML = "▲"
     },
     hideGroupList: function () {
         var o;
         if (this.g_list)
             this.g_list.style.display = "none";
         if ((o = $CRUST("CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-ARROW-" + this.uid)))
-            o.innerHTML = "â–¼"
+            o.innerHTML = "▼"
     },
     updatePosition: function () {
         this.c.style.left = this.h.c.posX + "px";
@@ -3749,13 +3749,13 @@ CrustClass.extend(CrustUI, {
         if (this.option("enableOpenID")) {
             h += '<div id="CRUST-UI-LOGIN" style="display:none" class="' + (this.authorized() ? "CRUST-UI-LOGIN-LOGGED" : "") + '">' + '<div style="display:' + (this.authorized() ? "none" : "") + '" id="CRUST-UI-LOGIN-NOT-LOGGED">' + '<form target="_top" method="post" action="' + LemonPen.URL_LOGIN + '">' + '<input type="text" id="CRUST-UI-LOGIN-INPUT" name=""/>' + '<input type="hidden" name="referer_url" value="' + (top.document.location.toString()) + '"/>' + '<input type="hidden" id="remember_me" name="remember_me" value="y"/>' + '<input type="image" id="CRUST-UI-LOGIN-BUTTON" border="0" src="' + LemonPen.URL_IMAGE + '/button_login.png" value=""/>' + '</form>' + '</div>' + '<div style="display:' + (this.authorized() ? "" : "none") + '" id="CRUST-UI-LOGIN-LOGGED">' + '<div id="CRUST-UI-LOGIN-LOGGED-MESSAGE">' + this.msg('OPENID_LOGGED_AS') + '</div>' + '<div id="CRUST-UI-LOGIN-LOGGED-OPENID"><a href="' + this.openID() + '">' + this.openID() + '</a></div>' + '<form target="_top" method="post" action="' + LemonPen.URL_LOGOUT + '">' + '<input type="hidden" name="referer_url" value="' + top.document.location.toString() + '"/>' + '<div style="text-align:left !important">' + '<a href="' + LemonPen.URL_SCRAPBOOK.replace(/\{LOCALID\}/, this.localID()) + '" id="CRUST-UI-SCRAPBOOK-BUTTON" title="' + this.msg("SCRAPBOOK") + '"></a>' + '<input id="CRUST-UI-LOGOUT-BUTTON" type="image" src="' + LemonPen.URL_IMAGE + '/button_logout.png" border="0" value=""/>' + '</div>' + '</form>' + '</div>' + '</div>'
         }
-        h += '<div id="CRUST-UI-TOOLBAR-BUTTON-OFF-SHRINKED" style="display:none"><a onfocus="this.blur()" href="javascript:void(0)"></a></div>' + '<div id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEMS" style="display:none;padding:4px 2px 4px 2px !important">' + '<table cellspacing="0" cellpadding="0">' + '<col/><col width="18"/>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-EXPANDALL" onfocus="this.blur()" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_EXPANDALL") + '</a></td></tr>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-SHRINKALL" onfocus="this.blur()" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_SHRINKALL") + '</a></td></tr>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-NOSHARE" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_NOSHARE") + '</a></td></tr>' + '<tr id="CRUST-UI-TOOLBAR-BUTTON-VIEW-GROUPS-CONTAINER">' + '<td><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-GROUPS" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_SHOWGROUP") + '</a></td>' + '<td><span id="CRUST-UI-TOOLBAR-BUTTON-VIEW-GROUPS-ARROW">â–¼</span></td>' + '</tr>' + '<tr><td colspan="2" id="CRUST-UI-TOOLBAR-GROUPS" style="display:none"></td></tr>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-SHOWALL" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_SHOWALL") + '</a></td></tr>' + '</table>' + '</div>' + '<div id="CRUST-UI-TOOLBAR-CONTAINER-OFF" style="display:none"' + (CrustEnv.isIE6() ? ' class="CRUST-UI-GIF"' : '') + '><a onfocus="this.blur()" href="javascript:void(0)"></a></div>' + '<div id="CRUST-UI-TOOLBAR-CONTAINER-ON">' + '<div id="CRUST-UI-TOOLBAR-HIGHLIGHTER" class="' + (CrustEnv.isIE6() ? 'CRUST-UI-TOOLBAR-HIGHLIGHTER-GIF' : 'CRUST-UI-TOOLBAR-HIGHLIGHTER-PNG') + '"></div>' + '<div id="CRUST-UI-TOOLBAR-DRAGGER" class="' + (CrustEnv.isIE6() ? 'CRUST-UI-TOOLBAR-DRAGGER-GIF' : 'CRUST-UI-TOOLBAR-DRAGGER-PNG') + '"></div>' + '<div id="CRUST-UI-TOOLBAR-BODY">' + '<div id="CRUST-UI-TOOLBAR-BUTTONS">' + '<a id="CRUST-UI-TOOLBAR-BUTTON-NOTE" title="' + this.msg("ACTION_NEWNOTE") + '" onfocus="this.blur()" href="javascript:void(0)"></a>' + '<a id="CRUST-UI-TOOLBAR-BUTTON-OFF"></a>' + '<a id="CRUST-UI-TOOLBAR-BUTTON-LOGIN' + (this.authorized() ? "-LOGGED" : "") + '"></a>' + '<a id="CRUST-UI-TOOLBAR-BUTTON-VIEW" onfocus="this.blur()" href="javascript:void(0)"></a>' + '</div>' + '</div>' + '</div>';
+        h += '<div id="CRUST-UI-TOOLBAR-BUTTON-OFF-SHRINKED" style="display:none"><a onfocus="this.blur()" href="javascript:void(0)"></a></div>' + '<div id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEMS" style="display:none;padding:4px 2px 4px 2px !important">' + '<table cellspacing="0" cellpadding="0">' + '<col/><col width="18"/>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-EXPANDALL" onfocus="this.blur()" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_EXPANDALL") + '</a></td></tr>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-SHRINKALL" onfocus="this.blur()" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_SHRINKALL") + '</a></td></tr>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-NOSHARE" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_NOSHARE") + '</a></td></tr>' + '<tr id="CRUST-UI-TOOLBAR-BUTTON-VIEW-GROUPS-CONTAINER">' + '<td><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-GROUPS" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_SHOWGROUP") + '</a></td>' + '<td><span id="CRUST-UI-TOOLBAR-BUTTON-VIEW-GROUPS-ARROW">▼</span></td>' + '</tr>' + '<tr><td colspan="2" id="CRUST-UI-TOOLBAR-GROUPS" style="display:none"></td></tr>' + '<tr><td colspan="2"><a id="CRUST-UI-TOOLBAR-BUTTON-VIEW-ITEM-SHOWALL" href="javascript:void(0)">' + this.msg("MENU_TOOLBAR_SHOWALL") + '</a></td></tr>' + '</table>' + '</div>' + '<div id="CRUST-UI-TOOLBAR-CONTAINER-OFF" style="display:none"' + (CrustEnv.isIE6() ? ' class="CRUST-UI-GIF"' : '') + '><a onfocus="this.blur()" href="javascript:void(0)"></a></div>' + '<div id="CRUST-UI-TOOLBAR-CONTAINER-ON">' + '<div id="CRUST-UI-TOOLBAR-HIGHLIGHTER" class="' + (CrustEnv.isIE6() ? 'CRUST-UI-TOOLBAR-HIGHLIGHTER-GIF' : 'CRUST-UI-TOOLBAR-HIGHLIGHTER-PNG') + '"></div>' + '<div id="CRUST-UI-TOOLBAR-DRAGGER" class="' + (CrustEnv.isIE6() ? 'CRUST-UI-TOOLBAR-DRAGGER-GIF' : 'CRUST-UI-TOOLBAR-DRAGGER-PNG') + '"></div>' + '<div id="CRUST-UI-TOOLBAR-BODY">' + '<div id="CRUST-UI-TOOLBAR-BUTTONS">' + '<a id="CRUST-UI-TOOLBAR-BUTTON-NOTE" title="' + this.msg("ACTION_NEWNOTE") + '" onfocus="this.blur()" href="javascript:void(0)"></a>' + '<a id="CRUST-UI-TOOLBAR-BUTTON-OFF"></a>' + '<a id="CRUST-UI-TOOLBAR-BUTTON-LOGIN' + (this.authorized() ? "-LOGGED" : "") + '"></a>' + '<a id="CRUST-UI-TOOLBAR-BUTTON-VIEW" onfocus="this.blur()" href="javascript:void(0)"></a>' + '</div>' + '</div>' + '</div>';
         this.html.toolbar = h
     },
     preparePostWindow: function (n) {
         if (typeof n == "undefined")
             this.option("postWindowWidth");
-        var h = "" + '<table id="CRUST-UI-NOTE-{ID}" cellspacing="0" cellpadding="0" class="CRUST-UI-NOTE" style="display:none;width:' + n + 'px"><tr><td>' + '<div id="CRUST-UI-POSTWINDOW-TOOLS-{ID}" class="CRUST-UI-POSTWINDOW-TOOLS" style="display:none">' + '<table cellspacing="0" celpadding="0">' + '<col/><col width="18"/>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_CLOSE") + '" id="CRUST-UI-POSTWINDOW-TOOL-CLOSE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-CLOSE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_CLOSE") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_CLOSE_EXCLUSIVE") + '" id="CRUST-UI-POSTWINDOW-TOOL-CLOSE-EXCLUSIVE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-CLOSE-EXCLUSIVE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_CLOSE_EXCLUSIVE") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_NOSHARE") + '" id="CRUST-UI-POSTWINDOW-TOOL-NOSHARE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-NOSHARE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_NOSHARE") + '</a></td></tr>' + '<tr>' + '<td><a onfocus="this.blur()" id="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_SHAREGROUP") + '</a></td>' + '<td width="18"><span id="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-ARROW-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-ARROW">â–¼</span>' + '</td></tr>' + '<tr><td colspan="2"><div id="CRUST-UI-POSTWINDOW-GROUPS-{ID}" class="CRUST-UI-POSTWINDOW-GROUPS" style="display:none"></div>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_MAKEPUBLIC") + '" id="CRUST-UI-POSTWINDOW-TOOL-MAKEPUBLIC-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-MAKEPUBLIC" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_MAKEPUBLIC") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_DELETE") + '" id="CRUST-UI-POSTWINDOW-TOOL-DELETE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-DELETE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_DELETE") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_EXPORT") + '" id="CRUST-UI-POSTWINDOW-TOOL-EXPORT-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-EXPORT" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_EXPORT") + '</a></td></tr>' + '</table>' + '</div>' + '<div id="CRUST-UI-NOTE-HEADER-CONTAINER-{ID}" class="CRUST-UI-NOTE-HEADER-CONTAINER">' + '<table cellspacing="0" cellpadding="0" id="CRUST-UI-NOTE-HEADER-{ID}" class="CRUST-UI-NOTE-HEADER"><tr valign="top">' + '<td style="border-left:1px solid #fff !important;border-top:1px solid #fff !important">' + '<div id="CRUST-UI-NOTE-HEADER-LEFT-{ID}" class="CRUST-UI-NOTE-HEADER-LEFT">' + '<a onfocus="this.blur()" id="CRUST-UI-POSTWINDOW-TRIGGER-{ID}" class="CRUST-UI-POSTWINDOW-TRIGGER" href="javascript:void(0)" style="position:relative !important"></a>' + '</div>' + '<div id="CRUST-UI-NOTE-HEADER-CENTER-{ID}" class="CRUST-UI-NOTE-HEADER-CENTER">' + '<span id="CRUST-UI-POSTWINDOW-TITLE-{ID}" class="CRUST-UI-POSTWINDOW-TITLE"></span>' + '</div>' + '<div id="CRUST-UI-NOTE-HEADER-RIGHT-{ID}" class="CRUST-UI-NOTE-HEADER-RIGHT">' + '<a title="' + this.msg("MENU_POSTWINDOW_CLOSE") + '" onfocus="this.blur()" id="CRUST-UI-POSTWINDOW-CLOSE-{ID}" class="CRUST-UI-POSTWINDOW-CLOSE" href="javascript:void(0)"></a>' + '</div>' + '</td>' + '</tr></table>' + '</div>' + '<div id="CRUST-UI-NOTE-BODY-CONTAINER-{ID}" class="CRUST-UI-NOTE-BODY-CONTAINER">' + '<table cellspacing="0" cellpadding="0" id="CRUST-UI-NOTE-BODY-{ID}" class="CRUST-UI-NOTE-BODY"><tr>' + '<td style="border-left:1px solid #fff !important">' + '<ol id="CRUST-UI-NOTE-POSTS-{ID}" class="CRUST-UI-NOTE-POSTS"></ol>' + '<div id="CRUST-UI-NOTE-EDITOR-{ID}" class="CRUST-UI-NOTE-EDITOR" style="padding:10px 10px 0px 10px !important"><textarea class="CRUST-UI-POST-TEXTAREA" id="CRUST-UI-EDITOR-{ID}"></textarea></div>' + '</td>' + '</tr>' + '<tr valign="top" id="CRUST-UI-NOTE-TAG-CONTAINER-{ID}"><td class="CRUST-UI-NOTE-TAG-CONTAINER" style="border-left:1px solid #fff !important">' + '<div class="CRUST-UI-NOTE-TAG" id="CRUST-UI-NOTE-TAG-{ID}" style="width:100% !important"></div>' + '</td></tr>' + '</table>' + '</div>' + '<table cellspacing="0" cellpadding="0" id="CRUST-UI-NOTE-FOOTER-{ID}" class="CRUST-UI-NOTE-FOOTER"><tr><td style="border-left:1px solid #fff !important">' + '<div id="CRUST-UI-NOTE-FLEXBAR-{ID}" class="CRUST-UI-NOTE-FLEXBAR"><spacer width="1" height="1"/></div>' + '</td></tr></table>' + '<div id="CRUST-UI-NOTE-GRIPPER-BACK-{ID}" class="CRUST-UI-NOTE-GRIPPER-BACK"></div>' + '<div id="CRUST-UI-NOTE-GRIPPER-{ID}" class="CRUST-UI-NOTE-GRIPPER"></div>' + '</div>' + '</div>' + '</td></tr></table>';
+        var h = "" + '<table id="CRUST-UI-NOTE-{ID}" cellspacing="0" cellpadding="0" class="CRUST-UI-NOTE" style="display:none;width:' + n + 'px"><tr><td>' + '<div id="CRUST-UI-POSTWINDOW-TOOLS-{ID}" class="CRUST-UI-POSTWINDOW-TOOLS" style="display:none">' + '<table cellspacing="0" celpadding="0">' + '<col/><col width="18"/>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_CLOSE") + '" id="CRUST-UI-POSTWINDOW-TOOL-CLOSE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-CLOSE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_CLOSE") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_CLOSE_EXCLUSIVE") + '" id="CRUST-UI-POSTWINDOW-TOOL-CLOSE-EXCLUSIVE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-CLOSE-EXCLUSIVE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_CLOSE_EXCLUSIVE") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_NOSHARE") + '" id="CRUST-UI-POSTWINDOW-TOOL-NOSHARE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-NOSHARE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_NOSHARE") + '</a></td></tr>' + '<tr>' + '<td><a onfocus="this.blur()" id="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_SHAREGROUP") + '</a></td>' + '<td width="18"><span id="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-ARROW-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-SHAREGROUP-ARROW">▼</span>' + '</td></tr>' + '<tr><td colspan="2"><div id="CRUST-UI-POSTWINDOW-GROUPS-{ID}" class="CRUST-UI-POSTWINDOW-GROUPS" style="display:none"></div>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_MAKEPUBLIC") + '" id="CRUST-UI-POSTWINDOW-TOOL-MAKEPUBLIC-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-MAKEPUBLIC" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_MAKEPUBLIC") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_DELETE") + '" id="CRUST-UI-POSTWINDOW-TOOL-DELETE-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-DELETE" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_DELETE") + '</a></td></tr>' + '<tr><td colspan="2"><a onfocus="this.blur()" title="' + this.msg("MENU_POSTWINDOW_EXPORT") + '" id="CRUST-UI-POSTWINDOW-TOOL-EXPORT-{ID}" class="CRUST-UI-POSTWINDOW-TOOL-EXPORT" href="javascript:void(0)">' + this.msg("MENU_POSTWINDOW_EXPORT") + '</a></td></tr>' + '</table>' + '</div>' + '<div id="CRUST-UI-NOTE-HEADER-CONTAINER-{ID}" class="CRUST-UI-NOTE-HEADER-CONTAINER">' + '<table cellspacing="0" cellpadding="0" id="CRUST-UI-NOTE-HEADER-{ID}" class="CRUST-UI-NOTE-HEADER"><tr valign="top">' + '<td style="border-left:1px solid #fff !important;border-top:1px solid #fff !important">' + '<div id="CRUST-UI-NOTE-HEADER-LEFT-{ID}" class="CRUST-UI-NOTE-HEADER-LEFT">' + '<a onfocus="this.blur()" id="CRUST-UI-POSTWINDOW-TRIGGER-{ID}" class="CRUST-UI-POSTWINDOW-TRIGGER" href="javascript:void(0)" style="position:relative !important"></a>' + '</div>' + '<div id="CRUST-UI-NOTE-HEADER-CENTER-{ID}" class="CRUST-UI-NOTE-HEADER-CENTER">' + '<span id="CRUST-UI-POSTWINDOW-TITLE-{ID}" class="CRUST-UI-POSTWINDOW-TITLE"></span>' + '</div>' + '<div id="CRUST-UI-NOTE-HEADER-RIGHT-{ID}" class="CRUST-UI-NOTE-HEADER-RIGHT">' + '<a title="' + this.msg("MENU_POSTWINDOW_CLOSE") + '" onfocus="this.blur()" id="CRUST-UI-POSTWINDOW-CLOSE-{ID}" class="CRUST-UI-POSTWINDOW-CLOSE" href="javascript:void(0)"></a>' + '</div>' + '</td>' + '</tr></table>' + '</div>' + '<div id="CRUST-UI-NOTE-BODY-CONTAINER-{ID}" class="CRUST-UI-NOTE-BODY-CONTAINER">' + '<table cellspacing="0" cellpadding="0" id="CRUST-UI-NOTE-BODY-{ID}" class="CRUST-UI-NOTE-BODY"><tr>' + '<td style="border-left:1px solid #fff !important">' + '<ol id="CRUST-UI-NOTE-POSTS-{ID}" class="CRUST-UI-NOTE-POSTS"></ol>' + '<div id="CRUST-UI-NOTE-EDITOR-{ID}" class="CRUST-UI-NOTE-EDITOR" style="padding:10px 10px 0px 10px !important"><textarea class="CRUST-UI-POST-TEXTAREA" id="CRUST-UI-EDITOR-{ID}"></textarea></div>' + '</td>' + '</tr>' + '<tr valign="top" id="CRUST-UI-NOTE-TAG-CONTAINER-{ID}"><td class="CRUST-UI-NOTE-TAG-CONTAINER" style="border-left:1px solid #fff !important">' + '<div class="CRUST-UI-NOTE-TAG" id="CRUST-UI-NOTE-TAG-{ID}" style="width:100% !important"></div>' + '</td></tr>' + '</table>' + '</div>' + '<table cellspacing="0" cellpadding="0" id="CRUST-UI-NOTE-FOOTER-{ID}" class="CRUST-UI-NOTE-FOOTER"><tr><td style="border-left:1px solid #fff !important">' + '<div id="CRUST-UI-NOTE-FLEXBAR-{ID}" class="CRUST-UI-NOTE-FLEXBAR"><spacer width="1" height="1"/></div>' + '</td></tr></table>' + '<div id="CRUST-UI-NOTE-GRIPPER-BACK-{ID}" class="CRUST-UI-NOTE-GRIPPER-BACK"></div>' + '<div id="CRUST-UI-NOTE-GRIPPER-{ID}" class="CRUST-UI-NOTE-GRIPPER"></div>' + '</div>' + '</div>' + '</td></tr></table>';
         this.html.note = h;
         return h
     },
